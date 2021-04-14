@@ -1,0 +1,6 @@
+[Jig]
+Name=Raspberry Pi Qomu PVT Jig
+Description=Qomu factory jig running on a Raspberry Pi, designed to burn and test Qomu PVT
+TestFile=/etc
+DefaultScenario=complete
+DefaultWorkingDirectory=../bin

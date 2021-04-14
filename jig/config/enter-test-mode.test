@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./03-enter-test-mode.sh
+Name=Enter Test Mode
+Description=Reboots the PCBA and enters test mode
+Requires=load-bitstream
+Timeout=10

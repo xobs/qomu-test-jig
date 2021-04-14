@@ -1,0 +1,5 @@
+[Scenario]
+Name=Just Test Everything
+Description=Run tests, but skip loading the bitstream
+Tests=test-pcba
+Assume=load-bitstream

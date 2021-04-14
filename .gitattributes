@@ -24,3 +24,4 @@ Makefile text eol=lf
 *.kicad_pcb text eol=lf
 *.pdf binary
 fb-info-cache text eol=lf
+/exclave binary

@@ -1,0 +1,5 @@
+[Scenario]
+Name=Program and test Everything
+Description=Load the test bitstream, run tests, then load the final bitstream
+Tests=test-pcba
+Timeout=30

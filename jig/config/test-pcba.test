@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./04-test-touch.sh
+Name=Test touchpads and RGB
+Description=Ensure the touchpads don't cross
+Requires=load-bitstream,enter-test-mode
+Timeout=10

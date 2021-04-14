@@ -1,0 +1,5 @@
+[Test]
+ExecStart=./01-program-exploded-image.sh
+Name=Program Bitstream
+Description=Program the bitstream from the exploded image
+Timeout=10
