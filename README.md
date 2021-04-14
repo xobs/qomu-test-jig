@@ -9,18 +9,23 @@ The test jig has two LEDs:
 1. READY -- the test jig can start a test
 2. FAIL -- The device is no good
 
-3. Turn on the Test Jig. Wait 20 seconds.
-4. Both LEDs will turn on, then FAIL LED will turn off.
+To prepare the test jig, do the following:
+
+1. Turn on the Test Jig. Wait 20 seconds.
+2. Both LEDs will turn on, then FAIL LED will turn off.
    * This is to test both LEDs are working -- If only one LED turns on, then the other is broken.
    * The first time you turn on the test jig, it may take longer than 20 seconds for the LED to turn on.
-5. Insert the Device Under Test into the test jig
-6. Close the toggle clamp
-7. Press the "Start" button
+
+To test a PCBA, do the following:
+
+1. Insert the Device Under Test into the test jig
+2. Close the toggle clamp
+3. Press the "Start" button
    * The READY and FAIL LEDs will turn off and the test will begin
-8. Wait 30 seconds
+4. Wait 30 seconds
    * The test will end early if there is a failure
    * The DUT will flash its LED Red/Blue/Green/Red/Blue/Green. If one color is missing, the device is FAIL.
-9.  The READY LED will turn on
+5.  The READY LED will turn on
 
 If the FAIL LED is on, then the device is no good.
 
