@@ -35,7 +35,7 @@ If the FAIL LED is on, then the device is no good.
 
 ![wiring diagram](schematic.png "Test jig wiring diagram")
 
-2. Download the [latest Exclave Pi SD image](https://github.com/exclave/exclave-pi-gen/releases/latest) and write it to an SD card. On Windows, you can try [Win32 Disk Imager](https://win32diskimager.org/#download)
+2. Download the [latest Exclave Pi SD image](https://github.com/exclave/exclave-pi-gen/releases/latest), unzip it, and write the `.img` file to an SD card. For example, `exclave-v1.3.3-exclave.img`. On Windows, you can try [Win32 Disk Imager](https://win32diskimager.org/#download)
 3. Extract this repository to a USB drive. You can [download this repository as a .ZIP file](../../archive/refs/heads/main.zip). Make sure this README.md file is at the root of the drive. For example:
 ![file paths](file-paths.png "Example file layout")
 4. Insert the USB drive into the Raspberry Pi
